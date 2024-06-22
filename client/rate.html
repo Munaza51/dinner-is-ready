@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Is Ready - Rate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>DelishDash</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">Add to Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="rate.html">Rate</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h2>Rate Us</h2>
+        <p>We appreciate your feedback!</p>
+        <form id="rate-form">
+            <label for="rating">Rate our service:</label>
+            <select id="rating" name="rating">
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+            </select>
+            <br>
+            <label for="feedback">Your feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
